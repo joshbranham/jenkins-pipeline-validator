@@ -16,6 +16,6 @@ docker run -d -p 8080:8080 joshphp/jenkins-pipeline-validator
 ```
 
 ### Validating pipelines
-To validate a Jenkins pipeline, run `./validate.sh -p <filename.groovy>`
+To validate a Jenkins pipeline, run `./validate.sh -f <filename.groovy>`
 
 This will hit `localhost:8080` to validate the pipeline. If you are running on a different port, modify the script to reflect that change.
