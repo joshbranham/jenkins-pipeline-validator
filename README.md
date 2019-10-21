@@ -12,7 +12,7 @@ By using the included `Dockerfile` and shell wrapper (only requiring `curl`) you
 First, you must run an instance of the included Jenkins instance. This can done with the following:
 
 ```bash
-docker run -d -p 8080:8080 joshbranham/jenkins-pipeline-validator
+docker run -d -p 8080:8080 joshphp/jenkins-pipeline-validator
 ```
 
 ### Validating pipelines
