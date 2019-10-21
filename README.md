@@ -11,7 +11,7 @@ If a pipeline is valid, the script will exit cleanly. If the pipeline is _invali
 ## Usage
 
 ### Running Jenkins
-First, you must run an instance of the included Jenkins instance. This can done with the following:
+First, you must run an instance of Jenkins, defined via the included Dockerfile. This can done with the following:
 
 ```bash
 docker run -d -p 8080:8080 joshphp/jenkins-pipeline-validator
