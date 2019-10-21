@@ -38,6 +38,7 @@ else
         echo "$response"
         exit
     else
+        echo "Validation error with $FILE"
         echo "$response"
         exit 1
     fi
