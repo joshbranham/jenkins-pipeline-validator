@@ -14,7 +14,7 @@ If a pipeline is valid, the script will exit cleanly. If the pipeline is _invali
 First, you must run an instance of Jenkins, defined via the included Dockerfile. This can done with the following:
 
 ```bash
-docker run -d -p 8080:8080 joshphp/jenkins-pipeline-validator
+docker run --name jenkins -d -p 8080:8080 joshphp/jenkins-pipeline-validator
 ```
 
 ### Validating pipelines
